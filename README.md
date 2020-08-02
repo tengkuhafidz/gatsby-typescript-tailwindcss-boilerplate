@@ -4,9 +4,9 @@ This is a simple boilerplate for Gatsby utilising Typescript and TailwindCSS.
 
 I have also configured fundamentals setup and configurations, such as:
 
-- SEO
 - PWA and offline capabilities
-- Site metadata
+- Google Fonts
+- SEO & Site metadata
 - eslint & prettier
 - husky
 

@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 const Home = () => (
   <div className="bg-gray-100 min-h-screen">
     <SEO />
-    <p>Hello Woorld</p>
+    <p>Hello World</p>
   </div>
 )
 

@@ -15,6 +15,12 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        tailwind: true, // Enable tailwindcss support
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `GatsbyTSTW`,

@@ -46,9 +46,9 @@ const SEO: React.FC<Props> = ({ title, description, image, twitterCard }) => {
       <Helmet title={metaTitle} titleTemplate={titleTemplate} defer={false}>
         <meta name="description" content={metaDescription} />
         <meta name="image" content={metaImage} />
-        <meta name="og:title" content={metaTitle} />
-        <meta name="og:description" content={metaDescription} />
-        <meta name="og:image" content={metaImage} />
+        <meta property="og:title" content={metaTitle} />
+        <meta property="og:description" content={metaDescription} />
+        <meta property="og:image" content={metaImage} />
         <meta property="og:url" content={url} />
         <meta name="twitter:card" content={metaTwitterCard} />
         <meta name="twitter:creator" content={twitterUsername} />
